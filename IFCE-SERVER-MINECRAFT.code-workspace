@@ -1,0 +1,14 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../teamplugin"
+    }
+  ],
+  "settings": {
+    "java.project.sourcePaths": ["plugins/TeamScoreboard/src/main/java"],
+    "java.compile.nullAnalysis.mode": "automatic"
+  }
+}

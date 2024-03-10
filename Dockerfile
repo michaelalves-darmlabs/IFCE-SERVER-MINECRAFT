@@ -1,24 +1,14 @@
-FROM ubuntu:latest
-
-# Atualiza a lista de pacotes e instala o OpenJDK 17
-RUN apt-get update && \
-    apt-get install -y openjdk-17-jdk && \
-    apt-get clean;
-
-# Define a variável de ambiente JAVA_HOME
-ENV JAVA_HOME /usr/lib/jvm/java-17-openjdk-amd64
-
-# Define a variável de ambiente PATH
-ENV PATH $JAVA_HOME/bin:$PATH
+FROM openjdk:17-jdk-slim
 
 WORKDIR /ifce-minecraft-server
 
 COPY . .
 
-# Expõe a porta 25565 TCP
+# Expõe a porta 25565 TCP (Minecraft Server)
 EXPOSE 25565/tcp
-# Expõe a porta 24454 UDP
+
+# Expõe a porta 24454 UDP (personalizada, por exemplo, para plugins específicos)
 EXPOSE 24454/udp
 
+# Comando para iniciar o servidor Minecraft
 CMD ["java", "-Xmx8G", "-jar", "server.jar", "nogui"]
-
