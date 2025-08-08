@@ -1,165 +1,128 @@
-[03:10:14] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.3+7-LTS-152; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[03:10:14] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-11-main@a5f2f61 (2025-07-22T08:53:33Z) for Minecraft 1.21.8
-[03:10:15] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[03:10:16] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins\teamplugin-1.0-SNAPSHOT.jar'...
-[03:10:16] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins\teamplugin-1.0-SNAPSHOT.jar' in 255ms.
-[03:10:16] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[03:10:16] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
- - Geyser-Spigot (2.8.2-SNAPSHOT), LoginSecurity (3.3.0), PlugManX (2.4.1), TeamPlugin (1.0), floodgate (2.2.3-SNAPSHOT (b109-49bd564)), voicechat (2.5.35)
-[03:10:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:10:24] [ServerMain/INFO]: Loaded 1407 recipes
-[03:10:24] [ServerMain/INFO]: Loaded 1520 advancements
-[03:10:24] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[03:10:25] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 390,0ms
-[03:10:25] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[03:10:25] [Server thread/INFO]: Loading properties
-[03:10:25] [Server thread/INFO]: This server is running Paper version 1.21.8-11-main@a5f2f61 (2025-07-22T08:53:33Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[03:10:25] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[03:10:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:10:25] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:10:26] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
-[03:10:26] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[03:10:26] [Server thread/INFO]: Default game type: SURVIVAL
-[03:10:26] [Server thread/INFO]: Generating keypair
-[03:10:26] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:10:26] [Server thread/INFO]: Using default channel type
-[03:10:26] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[03:10:26] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[03:10:26] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b109-49bd564)
-[03:10:28] [Server thread/INFO]: [floodgate] Demorou 1.453ms para inicializar o Floodgate
-[03:10:28] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.35
-[03:10:28] [Server thread/INFO]: [TeamPlugin] Loading server plugin TeamPlugin v1.0
-[03:10:28] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
-[03:10:28] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
-[03:10:28] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
-[03:10:28] [Server thread/INFO]: [Geyser-Spigot] Carregando extensões...
-[03:10:28] [Server thread/INFO]: [Geyser-Spigot] 0 extensão(ões) carregada
-[03:10:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:10:28] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
-[03:10:29] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[03:10:29] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
-[03:10:29] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
-[03:10:29] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
-[03:10:29] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
-[03:10:29] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[03:10:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:10:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:10:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:10:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:10:29] [Server thread/INFO]: Preparing level "world"
-[03:10:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:10:30] [Server thread/INFO]: Preparing spawn area: 0%
-[03:10:30] [Server thread/INFO]: Preparing spawn area: 0%
-[03:10:31] [Server thread/INFO]: Preparing spawn area: 0%
-[03:10:31] [Server thread/INFO]: Time elapsed: 1314 ms
-[03:10:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[03:10:31] [Server thread/INFO]: Preparing spawn area: 0%
-[03:10:31] [Server thread/INFO]: Time elapsed: 99 ms
-[03:10:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[03:10:31] [Server thread/INFO]: Preparing spawn area: 0%
-[03:10:31] [Server thread/INFO]: Time elapsed: 75 ms
-[03:10:31] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b109-49bd564)
-[03:10:31] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.35
-[03:10:31] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.8-R0.1
-[03:10:31] [Server thread/INFO]: [voicechat] Compatibility version 18
-[03:10:32] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[03:10:32] [Server thread/INFO]: [TeamPlugin] Enabling TeamPlugin v1.0
-[03:10:32] [Server thread/INFO]: [TeamPlugin] TeamPlugin enabled!
-[03:10:32] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
-[03:10:32] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[03:10:32] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "pt_br"
-[03:10:32] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[03:10:32] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[03:10:32] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
-[03:10:32] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
-[03:10:32] [Server thread/INFO]: [spark] Starting background profiler...
-[03:10:32] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[03:10:33] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[03:10:33] [Server thread/INFO]: [Geyser-Spigot] 
-[03:10:33] [Server thread/INFO]: [Geyser-Spigot] Carregando Geyser versão 2.8.2-b889 (git-master-df4bb4f)
-[03:10:33] [Server thread/INFO]: [Geyser-Spigot] 
-[03:10:33] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[03:10:37] [Server thread/INFO]: [Geyser-Spigot] Geyser iniciado na porta UDP 19132
-[03:10:37] [Server thread/INFO]: [Geyser-Spigot] Concluído (4,335 s)! Execute /geyser help para obter ajuda!
-[03:10:38] [Server thread/INFO]: Done preparing level "world" (8.964s)
-[03:10:38] [Server thread/INFO]: Running delayed init tasks
-[03:10:38] [Server thread/INFO]: Done (24.374s)! For help, type "help"
-[03:10:38] [Server thread/INFO]: [voicechat] Loading plugins
-[03:10:38] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[03:10:38] [Server thread/INFO]: [voicechat] Initializing plugins
-[03:10:38] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[03:10:38] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[03:10:38] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[03:10:48] [User Authenticator #0/INFO]: UUID of player Tester is f3d28cb0-7225-3cb1-baeb-2dadd2be89ae
-[03:10:48] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [floodgate, LoginSecurity]
-[03:10:49] [Server thread/INFO]: [TST] Tester joined the game
-[03:10:49] [Server thread/INFO]: Tester[/127.0.0.1:63311] logged in with entity id 120 at ([world]-1.300000011920929, 77.0, -6.50430840823006)
-[03:10:50] [User Authenticator #0/INFO]: UUID of player Michas is e9202445-7b7e-3788-ba91-2845cd7f798d
-[03:10:51] [Server thread/INFO]: [DEV] Michas joined the game
-[03:10:52] [Server thread/INFO]: Michas[/127.0.0.1:63312] logged in with entity id 239 at ([world]-4.78976973553398, 77.0, -6.521346545185885)
-[03:10:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2505ms or 50 ticks behind
-[03:11:24] [Server thread/INFO]: Tester issued server command: /time
-[03:11:31] [Server thread/INFO]: Tester issued server command: /time rejeitar
-[03:12:01] [Server thread/INFO]: Tester issued server command: /time solicitacoes
-[03:12:01] [Server thread/ERROR]: Command exception: /time solicitacoes
-org.bukkit.command.CommandException: Unhandled exception executing command 'time' in plugin TeamPlugin v1.0
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:451) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:345) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2313) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2286) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-11-a5f2f61]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.NullPointerException: Cannot invoke "java.util.List.isEmpty()" because "team.pendingRequests" is null
-	at teamplugin-1.0-SNAPSHOT.jar/me.michallves.teamplugin.services.TeamRequestService.listRequests(TeamRequestService.java:90) ~[teamplugin-1.0-SNAPSHOT.jar:?]
-	at teamplugin-1.0-SNAPSHOT.jar/me.michallves.teamplugin.TeamPlugin.onCommand(TeamPlugin.java:127) ~[teamplugin-1.0-SNAPSHOT.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
-	... 26 more
-[03:12:13] [Server thread/INFO]: Tester issued server command: /time sair
-[03:12:23] [Server thread/INFO]: Tester issued server command: /time excluir Tester
-[03:12:29] [Server thread/INFO]: Tester issued server command: /time entrar DEV
-[03:13:11] [Server thread/INFO]: Michas issued server command: /time excluir DEV
-[03:13:19] [Server thread/INFO]: Michas issued server command: /time criar
-[03:13:53] [Server thread/INFO]: Tester issued server command: /time solicitar DEV
-[03:14:03] [Server thread/INFO]: Michas issued server command: /time solicitacoes
-[03:14:51] [Server thread/INFO]: Tester issued server command: /time entrar DEV
-[03:15:01] [Server thread/INFO]: Tester issued server command: /time entrar DEV
-[03:15:15] [Server thread/INFO]: Tester issued server command: /time entrar Tester
-[03:15:27] [Server thread/INFO]: Michas issued server command: /time aceitar 1
-[03:16:00] [Server thread/INFO]: Tester lost connection: Disconnected
-[03:16:00] [Server thread/INFO]: [voicechat] Disconnecting client Tester
-[03:16:00] [Server thread/INFO]: [DEV] Tester left the game
-[03:16:02] [User Authenticator #1/INFO]: UUID of player Tester is f3d28cb0-7225-3cb1-baeb-2dadd2be89ae
-[03:16:03] [Server thread/INFO]: [DEV] Tester joined the game
-[03:16:03] [Server thread/INFO]: Tester[/127.0.0.1:63360] logged in with entity id 1010 at ([world]-3.8506230625679336, 77.0, -3.889061620814518)
-[03:30:07] [Server thread/INFO]: [DEV] Tester was slain by Zombie
-[03:34:38] [WebSocketConnectReadThread-167/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. Este geralmente é um erro temporário durante a resolução do nome do host e significa que o servidor local não recebeu uma resposta de um servidor autorizado (api.geysermc.org)
-[03:34:49] [WebSocketConnectReadThread-168/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. Este geralmente é um erro temporário durante a resolução do nome do host e significa que o servidor local não recebeu uma resposta de um servidor autorizado (api.geysermc.org)
-[10:26:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9445328ms or 188906 ticks behind
-[10:26:33] [Server thread/INFO]: Michas lost connection: Timed out
-[10:26:33] [Server thread/INFO]: [voicechat] Disconnecting client Michas
-[10:26:34] [Server thread/INFO]: [DEV] Michas left the game
-[10:26:34] [Server thread/INFO]: Tester lost connection: Timed out
-[10:26:34] [Server thread/INFO]: [voicechat] Disconnecting client Tester
-[10:26:34] [Server thread/INFO]: [DEV] Tester left the game
-[10:27:33] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[17:45:01] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.3+7-LTS-152; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[17:45:01] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-11-main@a5f2f61 (2025-07-22T08:53:33Z) for Minecraft 1.21.8
+[17:45:04] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:45:05] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins\BetterTeams.jar'...
+[17:45:07] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins\BetterTeams.jar' in 1114ms.
+[17:45:07] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[17:45:07] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+ - BetterTeams (4.9.0), Geyser-Spigot (2.8.2-SNAPSHOT), LoginSecurity (3.3.0), PlugManX (2.4.1), floodgate (2.2.3-SNAPSHOT (b109-49bd564)), voicechat (2.5.35)
+[17:45:17] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:45:20] [ServerMain/INFO]: Loaded 1407 recipes
+[17:45:20] [ServerMain/INFO]: Loaded 1520 advancements
+[17:45:20] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[17:45:21] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 665,0ms
+[17:45:21] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[17:45:21] [Server thread/INFO]: Loading properties
+[17:45:21] [Server thread/INFO]: This server is running Paper version 1.21.8-11-main@a5f2f61 (2025-07-22T08:53:33Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[17:45:21] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:45:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:45:21] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:45:22] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[17:45:22] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[17:45:23] [Server thread/INFO]: Default game type: SURVIVAL
+[17:45:23] [Server thread/INFO]: Generating keypair
+[17:45:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:45:23] [Server thread/INFO]: Using default channel type
+[17:45:23] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[17:45:23] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[17:45:24] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b109-49bd564)
+[17:45:26] [Server thread/INFO]: [floodgate] Demorou 2.631ms para inicializar o Floodgate
+[17:45:26] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.35
+[17:45:26] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
+[17:45:26] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[17:45:26] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
+[17:45:27] [Server thread/INFO]: [Geyser-Spigot] Carregando extensões...
+[17:45:27] [Server thread/INFO]: [Geyser-Spigot] 0 extensão(ões) carregada
+[17:45:28] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.9.0
+[17:45:28] [Server thread/INFO]: [BetterTeams] Checking if the file config.yml is up to date
+[17:45:28] [Server thread/INFO]: [BetterTeams] File is up to date
+[17:45:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:45:28] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
+[17:45:28] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[17:45:28] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
+[17:45:28] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
+[17:45:28] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
+[17:45:28] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
+[17:45:28] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[17:45:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:45:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:45:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:45:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:45:28] [Server thread/INFO]: Preparing level "world"
+[17:45:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:45:30] [Server thread/INFO]: Preparing spawn area: 0%
+[17:45:30] [Server thread/INFO]: Preparing spawn area: 0%
+[17:45:30] [Server thread/INFO]: Preparing spawn area: 0%
+[17:45:31] [Server thread/INFO]: Preparing spawn area: 2%
+[17:45:31] [Server thread/INFO]: Preparing spawn area: 2%
+[17:45:31] [Server thread/INFO]: Time elapsed: 2212 ms
+[17:45:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:45:31] [Server thread/INFO]: Preparing spawn area: 0%
+[17:45:31] [Server thread/INFO]: Time elapsed: 305 ms
+[17:45:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:45:31] [Server thread/INFO]: Preparing spawn area: 0%
+[17:45:32] [Server thread/INFO]: Time elapsed: 216 ms
+[17:45:32] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b109-49bd564)
+[17:45:32] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.35
+[17:45:32] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.8-R0.1
+[17:45:32] [Server thread/INFO]: [voicechat] Compatibility version 18
+[17:45:33] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[17:45:33] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[17:45:33] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[17:45:33] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "pt_br"
+[17:45:33] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[17:45:33] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[17:45:33] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[17:45:33] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
+[17:45:33] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.9.0
+[17:45:33] [Server thread/INFO]: [BetterTeams] Checking if the file messages.yml is up to date
+[17:45:33] [Server thread/INFO]: [BetterTeams] File is up to date
+[17:45:34] [Server thread/INFO]: [BetterTeams] Converting storage type, this may take a while
+[17:45:34] [Server thread/INFO]: [BetterTeams] Backing up teams.yml file
+[17:45:34] [Server thread/INFO]: [BetterTeams] Loading team information
+[17:45:34] [Server thread/INFO]: [BetterTeams] Beginning convertion
+[17:45:34] [Server thread/INFO]: [BetterTeams] Convertion complete
+[17:45:34] [Server thread/WARN]: Could not find the message with the reference command.teleport
+[17:45:34] [Server thread/WARN]: Could not find the message with the reference command.money
+[17:45:34] [Server thread/INFO]: Display team name config value: prefix
+[17:45:34] [Server thread/INFO]: Loading below name. Type: PREFIX
+[17:45:34] [Server thread/INFO]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@4f3ccb45
+[17:45:34] [Server thread/INFO]: [spark] Starting background profiler...
+[17:45:34] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[17:45:35] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:45:35] [Server thread/INFO]: [Geyser-Spigot] 
+[17:45:35] [Server thread/INFO]: [Geyser-Spigot] Carregando Geyser versão 2.8.2-b889 (git-master-df4bb4f)
+[17:45:35] [Server thread/INFO]: [Geyser-Spigot] 
+[17:45:35] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:45:45] [Server thread/INFO]: [Geyser-Spigot] Geyser iniciado na porta UDP 19132
+[17:45:45] [Server thread/INFO]: [Geyser-Spigot] Concluído (9,79 s)! Execute /geyser help para obter ajuda!
+[17:45:45] [Server thread/INFO]: Done preparing level "world" (17.357s)
+[17:45:45] [Server thread/INFO]: Running delayed init tasks
+[17:45:45] [Server thread/INFO]: Done (45.350s)! For help, type "help"
+[17:45:45] [Server thread/INFO]: [voicechat] Loading plugins
+[17:45:45] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[17:45:45] [Server thread/INFO]: [voicechat] Initializing plugins
+[17:45:45] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[17:45:45] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[17:45:45] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[17:45:45] [ForkJoinPool.commonPool-worker-7/INFO]: [Geyser-Spigot] Há uma nova atualização do Geyser disponível para oferecer suporte à versão Bedrock 1.21.100. Baixe aqui: https://geysermc.org/download
+[17:45:46] [Craft Scheduler Thread - 0 - BetterTeams/WARN]: [BetterTeams] An update for BetterTeams has been released. Update here (https://www.spigotmc.org/resources/better-teams.17129/)
+[17:46:45] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[18:00:26] [User Authenticator #0/INFO]: UUID of player Michael is 106e3fd9-b482-3bcb-b696-8bdf133c4f4c
+[18:00:26] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [floodgate, LoginSecurity]
+[18:00:28] [Server thread/INFO]: Michael joined the game
+[18:00:28] [Server thread/INFO]: Michael[/127.0.0.1:55720] logged in with entity id 52 at ([world]-3.5, 95.0, 1.5)
+[18:00:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2632ms or 52 ticks behind
+[18:00:55] [Server thread/INFO]: Michael issued server command: /team create DEV
+[18:08:48] [Server thread/INFO]: Michael issued server command: /team color RED
+[18:09:03] [Server thread/INFO]: Stopping server
+[18:09:03] [Server thread/INFO]: [BetterTeams] Disabling BetterTeams v4.9.0
+[18:09:03] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.2-SNAPSHOT
+[18:09:03] [Server thread/INFO]: [Geyser-Spigot] Desligando o Geyser.
+[18:09:03] [Server thread/INFO]: [Geyser-Spigot] Geyser encerrado com sucesso.
+[18:09:03] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
+[18:09:03] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[18:09:03] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[18:09:03] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.4.1
+[18:09:03] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.35
+[18:09:03] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b109-49bd564)
